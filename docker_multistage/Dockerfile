@@ -13,3 +13,6 @@ COPY . /src
 RUN g++ main.cpp -o main
 
 CMD ["./main"]
+
+##docker build . -t hello
+##docker run hello
